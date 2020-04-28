@@ -1,0 +1,211 @@
+body {
+font-family: 'Cabin', sans-serif;
+  text-align: center;
+}
+
+h1 {
+font-family: 'Bebas Neue', sans-serif;
+  font-size: 5rem;
+  padding-top: 5%;
+}
+
+h2 {
+  font-family: 'Bebas Neue', sans-serif;
+ color: #837cc3;
+ font-size: 3rem;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #8f8f8f
+}
+
+.container-header {
+  padding: 3% 15% 7%;
+}
+
+.container-body {
+  padding: 7% 15%;
+}
+
+.container-footer {
+  padding: 3% 15%;
+}
+
+.order-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Sections */
+
+.dark-section {
+  background-color: #2D2849;
+  color: #fff;
+}
+
+.dark-section p {
+  color: #fff;
+}
+
+/* Color options: dark purple 20124d dark blue 333A73 light purple 837cc3 alternate light purple 7a649a light blue abc0d7 */
+
+.light-section {
+  background-color: #fff;
+}
+
+/* Header Section  */
+
+.navbar-brand {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 2rem;
+}
+
+.nav-link {
+  font-family: 'Cabin Condensed', sans-serif;
+  font-size: 1.2rem;
+}
+
+.nav-item {
+  padding: 0 16px;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+#title {
+  text-align: left;
+}
+
+.header-image {
+  width: 90%;
+}
+
+@media (max-width: 1024px) {
+  #title {
+    text-align: center;
+  }
+  .titleimage {
+    width: 50%;
+  }
+}
+
+/* How It Works section */
+
+.how-it-works {
+  padding: 5%;
+}
+
+.how-it-works-icon {
+  color: #837cc3;
+  margin-bottom: 1rem;
+}
+
+.how-it-works-icon:hover {
+  color: #88b4e4;
+}
+
+/* About Section */
+
+#about {
+  background-color: #1A1C23;
+}
+
+.bird-hr {
+  text-align: center;
+  padding: 5% 0;
+}
+
+span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.outer-line {
+  width: 20%;
+  border-bottom: 4px dotted #fff;
+}
+
+.bird-icon {
+    color: #837cc3;
+    font-size: 1.5rem;
+}
+
+/* Other Products section  */
+
+.product-row {
+  margin-top: 7%;
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 150px;
+}
+
+/* Testimonial Section */
+
+#reviews {
+  background-color: #837cc3;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.review-image {
+  border-radius: 100%;
+  width: 15%;
+  margin: 20px;
+  object-fit: cover;
+}
+
+/* Order Section  */
+
+.speech-bubble {
+	position: relative;
+	background: #2D2849;
+	border-radius: .4em;
+	width: 90%;
+	text-align: center;
+	padding: 50px;
+  margin: 50px 0 20px 0;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 40px solid transparent;
+	border-right-color: #2D2849;
+	border-left: 0;
+	border-top: 0;
+	margin-top: -20px;
+	margin-left: -40px;
+}
+
+.speech-bubble {
+  color: #fff;
+}
+
+.order-pigeon {
+width: 90%;
+}
+
+/* footer */
+
+.footericon {
+  padding: 20px 10px;
+}
+
+.footertext {
+  font-size: small;
+}
